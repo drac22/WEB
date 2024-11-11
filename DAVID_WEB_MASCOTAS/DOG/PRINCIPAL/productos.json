@@ -1,0 +1,237 @@
+[
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-rope-with-bone-blue.jpg",
+        "alt": "Producto 1",
+        "nombre": "Producto 1",
+        "precio": "S/56.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 10
+    },
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-donut.jpg",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 5
+    },
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-rope-with-bone-blue.jpg",
+        "alt": "Producto 3",
+        "nombre": "Producto 3",
+        "precio": "S/104.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 8
+    },
+    {
+        "img": "../IMAGENES_DOG/salvaje-adulto-pollo-15-kg.png",
+        "alt": "Producto 1",
+        "nombre": "Producto 1",
+        "precio": "S/56.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 10
+    },
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-donut.jpg",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 5
+    },
+    {
+        "img": "../IMAGENES_DOG/-canbo-adulto-cordero-razas-peq.png",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 5
+    },
+    {
+        "img": "../IMAGENES_DOG/AP000790_m.png",
+        "alt": "Producto 3",
+        "nombre": "Producto 3",
+        "precio": "S/104.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 8
+    },
+    {
+        "img": "../IMAGENES_DOG/salvaje-adulto-pollo-15-kg.png",
+        "alt": "Producto 4",
+        "nombre": "Producto 4",
+        "precio": "S/113.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 7
+    },
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-donut.jpg",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 5
+    },
+    {
+        "img": "../IMAGENES_DOG/AP000790_m.png",
+        "alt": "Producto 5",
+        "nombre": "Producto 5",
+        "precio": "S/270.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 6
+    },
+    {
+        "img": "../IMAGENES_DOG/bexter-colonia-para-perros-relax-240ml.jpg",
+        "alt": "Producto 1",
+        "nombre": "Producto 1",
+        "precio": "S/56.90",
+        "categoria": "salud",
+        "animal": "perro",
+        "cantidad": 12
+    },
+    {
+        "img": "../IMAGENES_DOG/bexter-shampoo-para-perros-anticaida-500ml.jpg",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "salud",
+        "animal": "perro",
+        "cantidad": 6
+    },
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-donut.jpg",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 5
+    },
+    {
+        "img": "../IMAGENES_DOG/bexter-shampoo-para-perros-cachorros-500ml.jpg",
+        "alt": "Producto 3",
+        "nombre": "Producto 3",
+        "precio": "S/104.90",
+        "categoria": "salud",
+        "animal": "perro",
+        "cantidad": 8
+    },
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-rope-with-bone-blue.jpg",
+        "alt": "Producto 1",
+        "nombre": "Producto 1",
+        "precio": "S/56.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 10
+    },
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-donut.jpg",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 5
+    },
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-donut.jpg",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 5
+    },
+    {
+        "img": "../IMAGENES_DOG/playbite-tc-rope-with-bone-blue.jpg",
+        "alt": "Producto 3",
+        "nombre": "Producto 3",
+        "precio": "S/104.90",
+        "categoria": "accesorios",
+        "animal": "perro",
+        "cantidad": 8
+    },
+    {
+        "img": "../IMAGENES_DOG/salvaje-adulto-pollo-15-kg.png",
+        "alt": "Producto 1",
+        "nombre": "Producto 1",
+        "precio": "S/56.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 10
+    },
+    {
+        "img": "../IMAGENES_DOG/-canbo-adulto-cordero-razas-peq.png",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 5
+    },
+    {
+        "img": "../IMAGENES_DOG/AP000790_m.png",
+        "alt": "Producto 3",
+        "nombre": "Producto 3",
+        "precio": "S/104.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 8
+    },
+    {
+        "img": "../IMAGENES_DOG/salvaje-adulto-pollo-15-kg.png",
+        "alt": "Producto 4",
+        "nombre": "Producto 4",
+        "precio": "S/113.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 7
+    },
+    {
+        "img": "../IMAGENES_DOG/AP000790_m.png",
+        "alt": "Producto 5",
+        "nombre": "Producto 5",
+        "precio": "S/270.90",
+        "categoria": "alimento",
+        "animal": "perro",
+        "cantidad": 6
+    },
+    {
+        "img": "../IMAGENES_DOG/bexter-colonia-para-perros-relax-240ml.jpg",
+        "alt": "Producto 1",
+        "nombre": "Producto 1",
+        "precio": "S/56.90",
+        "categoria": "salud",
+        "animal": "perro",
+        "cantidad": 12
+    },
+    {
+        "img": "../IMAGENES_DOG/bexter-shampoo-para-perros-anticaida-500ml.jpg",
+        "alt": "Producto 2",
+        "nombre": "Producto 2",
+        "precio": "S/411.90",
+        "categoria": "salud",
+        "animal": "perro",
+        "cantidad": 6
+    },
+    {
+        "img": "../IMAGENES_DOG/bexter-shampoo-para-perros-cachorros-500ml.jpg",
+        "alt": "Producto 3",
+        "nombre": "Producto 3",
+        "precio": "S/104.90",
+        "categoria": "salud",
+        "animal": "perro",
+        "cantidad": 8
+    }
+    
+]

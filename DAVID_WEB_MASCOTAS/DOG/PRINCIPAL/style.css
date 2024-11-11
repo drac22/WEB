@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: hwb(9 0% 0%);
+    gap: 45px;
+    position: relative;
+}
+
+.header__logo {
+    width: 100px; /* Limita el ancho del contenedor del logo a 100px */
+    height: 100px; /* También puedes limitar la altura para hacerlo cuadrado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor */
+}
+
+.header__logo-image {
+    width: 150px; /* Aumenta el tamaño de la imagen para que se vea más grande dentro del contenedor */
+    height: auto;
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin distorsión */
+    object-position: center; /* Centra la imagen en el contenedor */
+}
+
+.header__search {
+    flex-grow: 1;
+    transition: all 0.3s ease;
+}
+
+.header__search-input {
+    width: 100%;
+    padding: 15px;
+}
+
+.header__icons {
+    display: flex;
+    gap: 40px;
+}
+
+.header__icon {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.header__icon.bx-cart, 
+.header__icon.bx-user, 
+.header__icon.bx-search-alt-2, #menu_icon {
+    font-size: 40px;
+}
+
+
+#menu_icon {
+    display: none;
+}
+
+#search-icon {
+    display: none;
+}
+
+/* --- MENU PRINCIPAL --- */
+
+
+.menu-principal {
+    background-color: hwb(9 0% 0%);
+    padding: 10px 0;
+}
+
+.menu-principal__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    transition: max-height 0.3s ease;
+}
+
+.menu-principal__item {
+    margin: 0 10px;
+}
+
+
+.menu-principal__link {
+    font-weight: bold;
+    position: relative;
+    color: #fff; /* Color de texto original */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición de color */
+}
+
+.menu-principal__link:hover {
+    color: #000; /* Naranja pastel en hover */
+}
+
+.menu-principal__link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Distancia del subrayado al texto */
+    width: 0;
+    height: 2px;
+    background-color: #000; /* Color de la línea subrayada */
+    transition: width 0.3s ease; /* Transición para el subrayado */
+}
+
+.menu-principal__link:hover::after {
+    width: 100%; /* La línea se expande completamente en hover */
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 500px) {
+    #menu_icon {
+        display: block;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    #search-icon {
+        display: block;
+    }
+
+    .menu-principal.show {
+        display: block;
+    }
+
+    .menu-principal__list {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 15px;
+        gap: 10px;
+        max-height: 500px;
+        overflow: hidden;
+    }
+
+    .menu-principal__item {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 4px 0;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    .menu-principal__link {
+        display: block;
+        color: #000;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .menu-principal__item:hover {
+        background-color: #ccc;
+    }
+
+    /* Ajuste de la posición del contenedor de búsqueda */
+    .header__search.show {
+        display: block;
+        position: absolute;
+        top: 100%; /* Debajo del header */
+        left: 0;
+        width: 100%;
+        background-color: #ccc;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+}
+
+.contenedor__main {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-destacada img {
+    width: 100%;
+    margin-top: 10px;
+    animation: zoom 5s ease-in-out infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.categoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.categoria img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 4px 4px 15px 2px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.5s ease, transform 0.3s ease;
+}
+
+.categoria img:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+
+@media(max-width: 500px){
+    .categorias{
+        flex-direction: column;
+    }
+    .categoria{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.contenedor-principal {
+    width: 80%;
+    display: block;
+    justify-content: center;
+    margin: 15px auto;
+    height: 100%;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.producto {
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.producto p {
+    margin: 10px 0;
+}
+
+@media (max-width: 1200px) {
+    .productos {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .productos {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+
+.producto button,
+.mostrar-mas button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: cambioColor 3s infinite;
+}
+
+.producto button:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}
+
+.mostrar-mas {
+    text-align: center;
+    padding: 20px;
+}
+
+@keyframes cambioColor {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: red;
+    }
+}

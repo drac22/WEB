@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <i class='header__menu-icon bx bx-menu' id="menu_icon"></i>
+        <a href="#" class="header__logo">
+            <img src="../../imagenes/file__2_-removebg-preview.png" alt="Pet Shop Logo" class="header__logo-image">
+        </a>
+        <div class="header__search" id="header__search">
+            <input type="text" placeholder="Buscar productos" class="header__search-input">
+        </div>
+        <div class="header__icons">
+            <i class='header__icon bx bx-search-alt-2' id="search-icon"></i>
+            <i class='header__icon bx bx-cart' id="cart_icon"></i>
+            <i class='header__icon bx bx-user' id="user_icon"></i>
+        </div>
+    </header>
+
+    <nav class="menu-principal">
+        <ul class="menu-principal__list">
+            <li class="menu-principal__item"><a href="../PRINCIPAL/principalDog.html" class="menu-principal__link">PERROS</a></li>
+            <li class="menu-principal__item"><a href="../../CAT/PRINCIPAL/principalCat.html" class="menu-principal__link">GATOS</a></li>
+            <li class="menu-principal__item"><a href="#" class="menu-principal__link">OTROS ACCESORIOS</a></li>
+        </ul>
+    </nav>
+
+    <div class="contenedor__main">
+        <section class="imagen-destacada">
+            <img src="../IMAGENES_DOG/BANNER-CATEGORIA-PERRO.jpg" alt="Portada de perros">
+        </section>
+
+        <section class="categorias">
+            <a href="../FILTROS_INICIAL/alimentosDog.html">
+                <div class="categoria">
+                    <img src="../IMAGENES_DOG/alimento-snack-perro.png">
+                    <p>ALIMENTO</p>
+                </div>
+            </a>
+            <a href="../FILTROS_INICIAL/saludDog.html">
+                <div class="categoria">
+                    <img src="../IMAGENES_DOG/farmacia.png" alt="Salud">
+                    <p>SALUD</p>
+                </div>
+            </a>
+            <a href="../FILTROS_INICIAL/accesoriosDog.html">
+                <div class="categoria">
+                    <img src="../IMAGENES_DOG/juguetes.png" alt="Accesorios">
+                    <p>ACCESORIOS</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="contenedor-principal">
+            <section class="productos" id="productos">
+                <!-- Los productos se cargarán aquí -->
+            </section>
+            <div class="mostrar-mas">
+                <button id="mostrarMasBtn">Mostrar más</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
